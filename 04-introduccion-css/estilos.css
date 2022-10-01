@@ -22,9 +22,11 @@ p {
   text-transform: uppercase;
 }
 
-/* "*" selector universal */
+/* "*" selector universal puede añadirse a una clase*/
 *.warning {
   color: red;
+  background-color: black;
+  border-radius: 5px;
 }
 
 .autor,
