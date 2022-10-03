@@ -14,13 +14,18 @@
   color: rgb(0, 200, 150, 0.3);
 }
 /* fondos e imagenes */
-.fondo {
-  background-color: #1548d9;
+.fondo-externo {
+  width: 500px;
+  height: 500px;
   background-image: url('https://assets-es.imgfoot.com/media/cache/642x382/lionel-messi-2223-argentina-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .fondo-interno {
+  width: 500px;
+  height: 500px;
   background-image: url('./imagenes/fondo-interno.webp');
+  background-position: center;
+  background-repeat: no-repeat;
 }
