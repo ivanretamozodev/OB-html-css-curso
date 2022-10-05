@@ -29,3 +29,24 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+/* espacios y tamaños */
+.ancho {
+  background-color: aqua;
+  color: black;
+  width: 100px;
+}
+.alto {
+  background-color: rebeccapurple;
+  color: black;
+  height: 100px;
+}
+/* tarjeta */
+.tarjeta {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1548d9;
+  /*  border-top: none; */
+  padding: 10px 20px;
+  /*   padding: 10px,20px,30px,40px; */
+  margin: 10px;
+}
