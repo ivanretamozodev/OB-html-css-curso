@@ -1,0 +1,21 @@
+.div-1,
+.div-2 {
+  /* por defecto es display :  block */
+  background-color: rebeccapurple;
+  color: wheat;
+}
+.img {
+  width: 400px;
+  height: 200px;
+}
+
+.span-1 {
+  /* por defecto es display :  inline */
+  background-color: aquamarine;
+  float: right;
+}
+.span-2 {
+  /* por defecto es display :  inline */
+  background-color: aquamarine;
+  float: left;
+}
