@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+.contenido-1 {
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.contenido-2 {
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+.contenido-3 {
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+h2 {
+    text-align: center;
+}
