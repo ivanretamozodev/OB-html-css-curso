@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1 {
+    font-size: 2.8rem;
+    color: white;
+    letter-spacing: 1.5px;
+}
+button {
+    padding: 8px;
+    border-radius: 15px;
+}
