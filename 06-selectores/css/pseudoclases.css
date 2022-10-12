@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hover {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+/* la pseudoclase hover se activa cuando el raton pasa por encima */
+.hover:hover {
+    background-color: aqua;
+}
+/*  la pseudoclase first-child hace referencia al primer hijo de un elemento determinado */
+.listado {
+    padding: 15px;
+    background-color: blueviolet;
+    color: wheat;
+}
+
+.listado p:first-child {
+    font-size: 24px;
+}
+/* hace referencia a un enlace no visitado */
+a:link {
+    color: #131313;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: pink;
+}
+a:active {
+    color: greenyellow;
+}
