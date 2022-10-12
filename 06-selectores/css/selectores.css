@@ -1,0 +1,11 @@
+section.main .contenedor p {
+    color: green;
+}
+
+.contenedor #boton-contenedor {
+    background-color: aqua;
+}
+
+section p {
+    color: red;
+}
