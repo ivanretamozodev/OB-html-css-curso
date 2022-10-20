@@ -1,17 +1,49 @@
 .padre {
-    width: 400px;
+    width: 800px;
     height: 400px;
     background-color: blue;
+    padding: 8px;
 }
 
 #hijo {
     width: 50%;
     height: 50%;
     background-color: aliceblue;
-    transition: transform 1s;
+    /*   transition: transform 1s ease 1s; */
 }
 
 .padre:hover #hijo {
-    transform: translateX(100%);
-    background-color: aqua;
+    /*   transform: translateX(100%);
+    background-color: aqua; */
+    animation: traslacion ease-in-out 3s forwards infinite alternate;
+}
+
+@keyframes traslacion {
+    /*     0% {
+        background-color: brown;
+        transform: translateX(0%) translateY(0%);
+    }
+    50% {
+        background-color: brown;
+        transform: translateX(50%) translateY(50%);
+    }
+    100% {
+        background-color: darkgoldenrod;
+        transform: translateX(0%) translateY(100%);
+    } */
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        transform: translateX(0%) translateX(0%);
+    }
 }
