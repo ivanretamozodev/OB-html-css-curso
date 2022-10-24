@@ -33,4 +33,5 @@ span.frase::after {
 
 .listado li::marker {
     color: red;
+    background-color: aqua;
 }
