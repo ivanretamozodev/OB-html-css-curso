@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: stretch;
+}
+.navbar-item {
+    text-align: center;
+    padding: 8px;
+    margin: 0.5rem;
+    border: 1px solid green;
+}
+.main {
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+    }
+}
