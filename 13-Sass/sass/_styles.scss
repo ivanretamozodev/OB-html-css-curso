@@ -1,0 +1,36 @@
+//estilos
+@import 'mixins';
+$text-color: #2b2b2b;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    background-color: azure;
+    height: 100vh;
+    padding: 0.5rem;
+}
+h1 {
+    margin: 0;
+    @include formato-texto(#f1f1f1);
+}
+p {
+    @include formato-texto(#f1f1f1);
+}
+
+.listado {
+    width: 15rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    ul {
+        margin: 0.5rem;
+        li {
+            list-style: none;
+            &:hover {
+                color: cyan;
+            }
+        }
+    }
+}
